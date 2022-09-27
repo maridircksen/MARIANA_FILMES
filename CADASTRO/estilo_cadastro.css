@@ -1,0 +1,37 @@
+body{
+    margin: 25px;
+}
+
+div{
+    width: 750px;
+    margin: auto ;
+}
+
+h4{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a{
+    margin-left: 5px;
+}
+
+label{
+    margin-top: 2px;
+    width: 120px;
+    text-align: right;
+}
+
+.form-control{
+    width: 600px;
+    padding: 3px;
+    display: inline;
+    margin-bottom: 5px;
+}
+
+#inserir{
+    width: 100px;
+    margin: 10px auto;
+    display: block;
+}
