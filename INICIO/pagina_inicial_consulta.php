@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="pagina_inicial.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="btn btn-outline-dark btn-sm" href="pagina_inicial_consulta.php">
             Consultar
         </a>
@@ -26,8 +26,8 @@
             Cadastrar
         </a>
     </nav>
-    
-    <table class="table table-striped table-bordered table-condensed table-hover">
+-->
+    <table class="table table-dark table-hover">
         <?php
             if(isset($_SESSION['msg'])){
                 echo $_SESSION['msg'];
@@ -120,6 +120,10 @@
 
             echo "<a class='btn btn-outline-dark btn-sm' href='pagina_inicial_consulta.php?pagina=$quantidade_pagina'>Última</a>";
         ?>
+    </div>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <a class="btn btn-outline-dark" href="../CADASTRO/cadastro_filmes.php">Cadastrar</a>
+        <a class="btn btn-outline-dark" href="../INICIO/pagina_inicial_consulta.php">Recarregar Consulta</a>
     </div>
 </body>
 </html>
